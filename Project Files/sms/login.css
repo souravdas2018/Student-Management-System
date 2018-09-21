@@ -1,0 +1,72 @@
+
+
+
+
+.banner{
+  width: auto;
+  height: 350px;
+  background-color: aqua;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding-top: 6.5%;
+  padding-bottom: 6.5%;
+  box-sizing: border-box;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url(../images/registration-form-background-images-10.jpg);
+  margin-bottom: 25px;
+}
+
+
+.banner-header {
+  line-height: 0.5;
+  text-align: center;
+  max-width:400px;
+  margin:auto;
+  margin-top: 20px;
+  font-family: 'Merriweather', cursive;
+  margin-bottom: 0px;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.banner-header  h3 {
+  display: inline-block;
+  position: relative;  
+  margin-top: 10px;
+}
+.banner-header h3:before,
+.banner-header h3:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid rgba(255,255,255,1.00);
+  border-top: 1px solid rgba(255,255,255,1.00);
+  top: 17.5px;
+  width: 40%;
+}
+.banner-header h3:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.banner-header h3:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+
+/*.form-container{
+  border: 0px solid #FFFFFF;
+  padding: 60px 30px;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  -webkit-box-shadow: -7px -5px 45px 15px rgba(0,0,0,0.75);
+  -moz-box-shadow: -7px -5px 45px 15px rgba(0,0,0,0.75);
+  box-shadow: -7px -5px 45px 15px rgba(0,0,0,0.75);
+}*/
+
+body{
+	background-color: #FFFFFF;
+}
